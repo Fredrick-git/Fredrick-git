@@ -5,7 +5,7 @@ Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **
 
 ---
 
-## **Technologies I Use**  
+## **Technologies*  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -22,7 +22,7 @@ Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **
 
 ## **Pricing Plans**  
 
-Here are the service plans I offer, tailored to meet your needs.  
+service plans I offer, tailored to meet your needs.  
 
 <div align="center">
 
