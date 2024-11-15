@@ -1,5 +1,7 @@
 
-# **fredric**  
+---
+
+# **About Me**  
 
 Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **efficient**, **scalable**, and **visually stunning** applications. I specialize in combining polished **UI/UX designs** with robust backend systems to deliver **end-to-end project solutions** tailored to your needs. Let’s bring your ideas to life!  
 
@@ -27,7 +29,7 @@ Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <!-- Free Plan Card -->
-  <div style="border: 2px solid #4CAF50; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div style="border: 2px solid #4CAF50; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e8f5e9; transition: all 0.3s ease;">
     <h3 style="color: #4CAF50; text-align: center;">Free Plan</h3>
     <p style="text-align: center;">💡 Best for quick advice or resources</p>
     <ul>
@@ -39,7 +41,7 @@ Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **
   </div>
 
   <!-- Small Projects Card -->
-  <div style="border: 2px solid #FF9800; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div style="border: 2px solid #FF9800; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #fff3e0; transition: all 0.3s ease;">
     <h3 style="color: #FF9800; text-align: center;">Small Projects</h3>
     <p style="text-align: center;">🚀 Ideal for demos or prototypes</p>
     <ul>
@@ -51,7 +53,7 @@ Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **
   </div>
 
   <!-- Pro Plan Card -->
-  <div style="border: 2px solid #2196F3; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div style="border: 2px solid #2196F3; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e3f2fd; transition: all 0.3s ease;">
     <h3 style="color: #2196F3; text-align: center;">Pro Plan</h3>
     <p style="text-align: center;">🏆 Perfect for full-fledged systems</p>
     <ul>
