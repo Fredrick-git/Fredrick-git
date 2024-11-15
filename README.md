@@ -29,46 +29,47 @@ Here are the service plans I offer, tailored to meet your needs.
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
     <!-- Free Plan Card -->
-    <div style="border: 2px solid #4CAF50; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e8f5e9; transition: all 0.3s ease;">
-      <h3 style="color: #4CAF50; text-align: center;">Free Plan</h3>
-      <p style="text-align: center;">💡 Best for quick advice or resources</p>
-      <ul>
-        <li>Initial consultations</li>
-        <li>Resource sharing</li>
-        <li>General advice</li>
-      </ul>
-      <div style="background-color: #4CAF50; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-        <strong>Price: KES 0</strong>
-      </div>
-    </div>
+<div style="border: 2px solid #4CAF50; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e8f5e9; transition: all 0.3s ease;">
+  <h3 style="color: #4CAF50; text-align: center;">Free Plan</h3>
+  <p style="text-align: center;">💡 Best for quick advice or resources</p>
+  <ul>
+    <li>Initial consultations</li>
+    <li>Resource sharing</li>
+    <li>General advice</li>
+  </ul>
+  <div style="background-color: #4CAF50; color: white; padding: 10px; text-align: center; border-radius: 10px;">
+    <strong>Price: KES 0</strong>
+  </div>
+</div>
 
-    <!-- Small Projects Card -->
-    <div style="border: 2px solid #FF9800; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #fff3e0; transition: all 0.3s ease;">
-      <h3 style="color: #FF9800; text-align: center;">Small Projects</h3>
-      <p style="text-align: center;">🚀 Ideal for demos or prototypes</p>
-      <ul>
-        <li>Prototypes</li>
-        <li>Simple UI designs</li>
-        <li>Quick demos</li>
-      </ul>
-      <div style="background-color: #FF9800; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-        <strong>Price: KES 20,000</strong>
-      </div>
-    </div>
+<!-- Small Projects Card -->
+<div style="border: 2px solid #FF9800; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #fff3e0; transition: all 0.3s ease;">
+  <h3 style="color: #FF9800; text-align: center;">Small Projects</h3>
+  <p style="text-align: center;">🚀 Ideal for demos or prototypes</p>
+  <ul>
+    <li>Prototypes</li>
+    <li>Simple UI designs</li>
+    <li>Quick demos</li>
+  </ul>
+  <div style="background-color: #FF9800; color: white; padding: 10px; text-align: center; border-radius: 10px;">
+    <strong>Price: KES 20,000</strong>
+  </div>
+</div>
 
-    <!-- Pro Plan Card -->
-    <div style="border: 2px solid #2196F3; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e3f2fd; transition: all 0.3s ease;">
-      <h3 style="color: #2196F3; text-align: center;">Pro Plan</h3>
-      <p style="text-align: center;">🏆 Perfect for full-fledged systems</p>
-      <ul>
-        <li>Complete functional systems</li>
-        <li>Robust backend & frontend</li>
-        <li>Full project delivery</li>
-      </ul>
-      <div style="background-color: #2196F3; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-        <strong>Price: KES 50,000</strong>
-      </div>
-    </div>
+<!-- Pro Plan Card -->
+<div style="border: 2px solid #2196F3; border-radius: 15px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #e3f2fd; transition: all 0.3s ease;">
+  <h3 style="color: #2196F3; text-align: center;">Pro Plan</h3>
+  <p style="text-align: center;">🏆 Perfect for full-fledged systems</p>
+  <ul>
+    <li>Complete functional systems</li>
+    <li>Robust backend & frontend</li>
+    <li>Full project delivery</li>
+  </ul>
+  <div style="background-color: #2196F3; color: white; padding: 10px; text-align: center; border-radius: 10px;">
+    <strong>Price: KES 50,000</strong>
+  </div>
+</div>
+
 
   </div>
 
