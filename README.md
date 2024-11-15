@@ -1,5 +1,5 @@
 
-# **Read Me**  
+read me
 
 Hi there! 👋 I'm **Fredrick**, a passionate developer dedicated to creating **efficient**, **scalable**, and **visually stunning** applications. I specialize in combining polished **UI/UX designs** with robust backend systems to deliver **end-to-end project solutions** tailored to your needs. Let’s bring your ideas to life!  
 
@@ -33,12 +33,11 @@ Here are the service plans I offer, tailored to meet your needs.
   <h3 style="color: #4CAF50; text-align: center;">Free Plan</h3>
   <p style="text-align: center;">💡 Best for quick advice or resources</p>
   <ul>
-    <li>Initial consultations</li>
     <li>Resource sharing</li>
-    <li>General advice</li>
+    <li>Demo</li>
   </ul>
   <div style="background-color: #4CAF50; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-    <strong>Price: KES 0</strong>
+    <strong>Price: $ 20</strong>
   </div>
 </div>
 
@@ -52,7 +51,7 @@ Here are the service plans I offer, tailored to meet your needs.
     <li>Quick demos</li>
   </ul>
   <div style="background-color: #FF9800; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-    <strong>Price: KES 20,000</strong>
+    <strong>Price: $ 200 </strong>
   </div>
 </div>
 
@@ -66,7 +65,7 @@ Here are the service plans I offer, tailored to meet your needs.
     <li>Full project delivery</li>
   </ul>
   <div style="background-color: #2196F3; color: white; padding: 10px; text-align: center; border-radius: 10px;">
-    <strong>Price: KES 50,000</strong>
+    <strong>Price: $ 500</strong>
   </div>
 </div>
 
