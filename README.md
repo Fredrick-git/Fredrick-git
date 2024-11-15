@@ -1,4 +1,4 @@
-Here’s the enhanced `README.md` with logos added for **MySQL**, **Supabase**, **Firebase**, and other technologies, alongside updated descriptions to reflect a focus on responsive UI design.
+Here’s an updated and visually appealing `README.md` tailored to your specifications. It includes a clean pricing UI, a single concise code snippet, and streamlined technology logos with names.
 
 ---
 
@@ -17,103 +17,53 @@ Welcome to my GitHub profile! I'm Fredrick, a passionate developer dedicated to 
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/API-4EA94B?style=for-the-badge&logo=api&logoColor=white" alt="API">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/API-4EA94B?style=for-the-badge&logo=api&logoColor=white" alt="API">
 </p>  
-
----
-
-## **What I Do**  
-
-- **Custom Software Development**: Creating intuitive, scalable frontends and backends.  
-- **Responsive UI/UX Design**: Using modern tools like **Bootstrap** and advanced plugins to craft seamless user interfaces.  
-- **Database Integration**: Expertise in **MySQL**, **Supabase**, **Firebase**, and more to build robust data systems.  
-- **AI and API Integration**: Embedding advanced AI capabilities and seamless API integrations into your projects.  
-- **Small Projects & Demos**: Perfect for prototyping or showcasing ideas.  
-
----
-
-## **Code Snippet: Python and PHP Blend with API & AI Integration**  
-
-### **Python: AI Integration**  
-
-```python
-import openai
-import requests
-
-# OpenAI API configuration
-openai.api_key = "your_openai_api_key"
-
-def get_ai_response(prompt):
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=100
-    )
-    return response.choices[0].text.strip()
-
-# Send response to a PHP backend
-def send_to_php(response):
-    url = "http://localhost/api/handle_response.php"
-    payload = {'ai_response': response}
-    requests.post(url, data=payload)
-
-if __name__ == "__main__":
-    prompt = "What is the future of AI in software development?"
-    ai_response = get_ai_response(prompt)
-    print("AI Response:", ai_response)
-    send_to_php(ai_response)
-```  
-
-### **PHP: Handling API Data**  
-
-```php
-<?php
-// handle_response.php
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $ai_response = $_POST['ai_response'] ?? 'No response received';
-    
-    // Save the response to a database (MySQL example)
-    $conn = new mysqli("localhost", "username", "password", "database");
-
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    $stmt = $conn->prepare("INSERT INTO ai_responses (response) VALUES (?)");
-    $stmt->bind_param("s", $ai_response);
-
-    if ($stmt->execute()) {
-        echo "AI Response saved successfully!";
-    } else {
-        echo "Error: " . $stmt->error;
-    }
-
-    $stmt->close();
-    $conn->close();
-}
-?>
-```  
 
 ---
 
 ## **Pricing**  
 
-| **Service**          | **Description**                              | **Price (KES)** |  
-|-----------------------|----------------------------------------------|-----------------|  
-| **Free**             | - Access to free resources, templates, or advice. | **0**           |  
-| **Small Projects**   | - Demos, prototypes, or simple UI designs.    | **20,000**      |  
-| **Pro**              | - Full-featured projects with complete functionality. | **50,000**      |  
+Here are the service plans tailored to meet your needs:  
+
+<div align="center">
+
+| **Plan**           | **Description**                              | **Price (KES)** |  
+|---------------------|----------------------------------------------|-----------------|  
+| **Free**           | Access to free resources or advice.           | **0**           |  
+| **Small Projects** | Demos, prototypes, or simple UI designs.      | **20,000**      |  
+| **Pro**            | Complete functional systems or full projects. | **50,000**      |  
+
+</div>  
+
+---
+
+## **Code Snippet: Simple AI-Powered API Example**  
+
+Here’s a quick example of integrating OpenAI's API in Python to create a conversational assistant:
+
+```python
+import openai
+
+# OpenAI API setup
+openai.api_key = "your_openai_api_key"
+
+response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[{"role": "user", "content": "How can AI improve software development?"}]
+)
+
+print("AI says:", response['choices'][0]['message']['content'])
+```  
 
 ---
 
 ## **How to Get Started**  
 
-1. Browse my repositories for examples of my work.  
-2. Contact me via email or GitHub to discuss your project requirements.  
-3. Let’s create something amazing together!  
+1. Check out my repositories for examples of my work.  
+2. Contact me to discuss your project requirements.  
+3. Let’s collaborate to create something amazing!  
 
 ---
 
@@ -127,4 +77,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 ---
 
-This enhanced `README.md` not only provides a polished appearance with relevant logos but also emphasizes responsive design, making it a strong representation of your capabilities.
+This version creates a sleek, user-friendly design with easy navigation, a clean pricing table, and a concise code snippet. Replace placeholders like `your_openai_api_key` and `YourUsername` with actual values to personalize it.
